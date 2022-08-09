@@ -1,0 +1,21 @@
+-- Probar los 4 operadores de conjunto
+SELECT * FROM cars1
+UNION
+SELECT * FROM cars2;
+
+SELECT * FROM cars1
+UNION ALL
+SELECT * FROM cars2;
+
+SELECT * FROM cars1
+INTERSECT
+SELECT * FROM cars2;
+
+SELECT * FROM cars1
+MINUS
+SELECT * FROM cars2;
+
+SELECT * FROM cars2
+UNION
+SELECT * FROM cars1;
+
